@@ -1,0 +1,10 @@
+.background-video {
+  position: fixed; /* Ensure the video covers the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set to 100% of the viewport width */
+  height: 100vh; /* Set to 100% of the viewport height */
+  object-fit:fill; /* Ensures the video covers the area without stretching */
+  z-index: -1; /* Make sure it's behind the content */
+  
+}

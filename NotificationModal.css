@@ -1,0 +1,64 @@
+.notification-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+    gap: 10px; /* Use gap for consistent space between avatar and text */
+}
+
+.avatar {
+    width: 40px;  /* Maintain consistent size */
+    height: 40px; 
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0; /* Removed margin-right */
+    line-height: 1; /* Ensure vertical alignment of text inside the avatar */
+}
+
+.message {
+    font-size: 16px;
+    flex: 1; 
+    line-height: 3; /* Adjust line-height for proper text alignment */
+    text-align: left;
+    text-wrap: inherit;
+
+}
+
+.message strong {
+    font-weight: bold;
+}
+
+.notifications {
+    padding: 20px 0;
+    
+}
+
+.notifications p{
+    font-weight: bold;
+}
+
+.custom-modal-dialog {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    margin: 20px;
+    width: auto;
+    z-index: 1050; /* Ensure this is higher than the navbar */
+
+}
+
+.modal-content {
+    border-radius: 20px;
+    outline: none;
+}
+
+.modal {
+    z-index: 1050 !important;
+}
+
+.modal-backdrop {
+    display: none !important;
+}
